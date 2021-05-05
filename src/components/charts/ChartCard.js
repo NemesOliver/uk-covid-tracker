@@ -5,9 +5,9 @@ import Chart from "./Chart";
 const ChartCard = () => {
   //Card component
   return (
-    <div className="ui raised fluid card">
+    <div style={{ marginTop: "30px" }} className="ui raised fluid card">
       <div className="content">
-        <div className="header">Covid-19 statistics</div>
+        <div className="header">Covid-19 Deaths</div>
         <div className="meta">
           <span className="category">Total</span>
         </div>
@@ -15,11 +15,6 @@ const ChartCard = () => {
           <div className="ui list">
             <Chart />
           </div>
-        </div>
-      </div>
-      <div className="extra content">
-        <div className="right floated author">
-          <i className="image icon"></i>
         </div>
       </div>
     </div>
