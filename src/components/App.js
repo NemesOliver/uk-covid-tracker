@@ -15,7 +15,7 @@ const App = ({ fetchTotal, total }) => {
 
     return (
       <>
-        <div className="item">Date: {total[0].date} </div>
+        <div className="item">Date: {total[0].last_update} </div>
         <div className="item">
           Confirmed cases: {total[0].confirmed.toLocaleString()}
         </div>
