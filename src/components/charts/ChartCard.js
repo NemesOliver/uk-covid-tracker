@@ -7,6 +7,7 @@ const ChartCard = ({ fetchTotal, total }) => {
     fetchTotal();
   }, [fetchTotal]);
 
+  //Render list of data
   const renderList = () => {
     if (!total[0]) {
       return <div>Loading...</div>;
@@ -25,6 +26,8 @@ const ChartCard = ({ fetchTotal, total }) => {
       </>
     );
   };
+  
+  //Card component
   return (
     <div className="ui raised fluid card">
       <div className="content">
